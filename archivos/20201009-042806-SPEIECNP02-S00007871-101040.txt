@@ -1,0 +1,271 @@
+{
+  "transactionData": {
+    "entidad": "0127",
+    "canal": "001",
+    "canalOrigen": "BEA",
+    "sucursal": "0172",
+    "fechaEmision": "20201009 18:29:43",
+    "idMensaje": 101040,
+    "terminal": "5GJH",
+    "usuario": "SIPNOM",
+    "idAplicativo": 1,
+    "referenciaUnica": "b1449fe3-ae2b-59c7-e053-230c5a0a5afd"
+  },
+  "transactionDetail": {
+    "codigoTransaccion": "SPEIECNP02",
+    "fechaOperacion": "20201009",
+    "horaOperacion": "16:10:06",
+    "fechaValor": "20201009",
+    "folio": "S00007871",
+    "folioOriginal": "M00000435",
+    "fechaOperacionOriginal": "20201009",
+    "estatusTransaccion": "R",
+    "centroOrigen": "0172",
+    "tipoCentroOrigen": 1,
+    "centroOperante": "0172",
+    "tipoCentroOperante": 1,
+    "tasaIVA": 16,
+    "tipoCambio": "1.00",
+    "estatusInsercion": false,
+    "referenciaNumerica": null,
+    "concepto": null,
+    "partes": [
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "21001",
+        "cuenta": "00002100740101",
+        "codigoProducto": "PM001",
+        "monto": "0.01",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "0.01",
+        "parteContable": false,
+        "parteOperativa": true,
+        "tipoParteTransaccion": "C",
+        "codigoParteTransaccion": "1SPEI21",
+        "folioParteTransaccion": "1",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": "217",
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacion": {
+            "idCliente": "100087357",
+            "idTipoRelacionEmpresa": 1,
+            "idSubSector": 1,
+            "idNacionalidad": 449,
+            "concepto": null,
+            "cuentaOriginacion": "00002100740101",
+            "idTipoCliente": 19,
+            "idTipoEmpresa": 4,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": "PM001",
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      },
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "90000",
+        "cuenta": "0172900600001MXP",
+        "codigoProducto": "OPECN",
+        "monto": "0.01",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "0.01",
+        "parteContable": true,
+        "parteOperativa": false,
+        "tipoParteTransaccion": "D",
+        "codigoParteTransaccion": "2LSPE90",
+        "folioParteTransaccion": "2",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": null,
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacion": {
+            "idCliente": "100087357",
+            "idTipoRelacionEmpresa": 1,
+            "idSubSector": 1,
+            "idNacionalidad": 449,
+            "concepto": null,
+            "cuentaOriginacion": "00002100740101",
+            "idTipoCliente": 19,
+            "idTipoEmpresa": 4,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": "PM001",
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      },
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "53000",
+        "cuenta": "0172530901001MXP",
+        "codigoProducto": "COM01",
+        "monto": "8.00",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "8.00",
+        "parteContable": true,
+        "parteOperativa": false,
+        "tipoParteTransaccion": "D",
+        "codigoParteTransaccion": "2SPEI53",
+        "folioParteTransaccion": "3",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": null,
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacion": {
+            "idCliente": "100087357",
+            "idTipoRelacionEmpresa": 1,
+            "idSubSector": 1,
+            "idNacionalidad": 449,
+            "concepto": null,
+            "cuentaOriginacion": "00002100740101",
+            "idTipoCliente": 19,
+            "idTipoEmpresa": 4,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": "PM001",
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      },
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "24001",
+        "cuenta": "0172240107100MXP",
+        "codigoProducto": "CXPAG",
+        "monto": "1.28",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "1.28",
+        "parteContable": true,
+        "parteOperativa": false,
+        "tipoParteTransaccion": "D",
+        "codigoParteTransaccion": "2IVACOM",
+        "folioParteTransaccion": "4",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": null,
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacion": {
+            "idCliente": "100087357",
+            "idTipoRelacionEmpresa": 1,
+            "idSubSector": 1,
+            "idNacionalidad": 449,
+            "concepto": null,
+            "cuentaOriginacion": "00002100740101",
+            "idTipoCliente": 19,
+            "idTipoEmpresa": 4,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": "PM001",
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      },
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "21001",
+        "cuenta": "00002100740101",
+        "codigoProducto": "PM001",
+        "monto": "8.00",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "8.00",
+        "parteContable": false,
+        "parteOperativa": true,
+        "tipoParteTransaccion": "C",
+        "codigoParteTransaccion": "1SPEC21",
+        "folioParteTransaccion": "5",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": "222",
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacion": {
+            "idCliente": "100087357",
+            "idTipoRelacionEmpresa": 1,
+            "idSubSector": 1,
+            "idNacionalidad": 449,
+            "concepto": null,
+            "cuentaOriginacion": "00002100740101",
+            "idTipoCliente": 19,
+            "idTipoEmpresa": 4,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": "PM001",
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      },
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "21001",
+        "cuenta": "00002100740101",
+        "codigoProducto": "PM001",
+        "monto": "1.28",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "1.28",
+        "parteContable": false,
+        "parteOperativa": true,
+        "tipoParteTransaccion": "C",
+        "codigoParteTransaccion": "1SPEIVA",
+        "folioParteTransaccion": "6",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": "223",
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacion": {
+            "idCliente": "100087357",
+            "idTipoRelacionEmpresa": 1,
+            "idSubSector": 1,
+            "idNacionalidad": 449,
+            "concepto": null,
+            "cuentaOriginacion": "00002100740101",
+            "idTipoCliente": 19,
+            "idTipoEmpresa": 4,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": "PM001",
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      }
+    ],
+    "anexos": [
+      {
+        "anexo": {
+          "spei": {
+            "nombre": "Irma Barrera Castro",
+            "numeroCuenta": "",
+            "claveBanco": "040012",
+            "tipoCuenta": "10",
+            "claveRastreo": "201009BEAN0000006601SPEI201009",
+            "referenciaCobro": "Referencia de Cobranza"
+          }
+        }
+      }
+    ]
+  }
+}

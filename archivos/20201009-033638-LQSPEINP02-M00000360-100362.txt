@@ -1,0 +1,111 @@
+{
+  "transactionData": {
+    "entidad": "0127",
+    "canal": "001",
+    "canalOrigen": "BEA",
+    "sucursal": "0172",
+    "fechaEmision": "20201009 18:29:43",
+    "idMensaje": 100362,
+    "terminal": null,
+    "usuario": null,
+    "idAplicativo": 1,
+    "referenciaUnica": "b143c005-4de2-3d80-e053-230c5a0a89da"
+  },
+  "transactionDetail": {
+    "codigoTransaccion": "LQSPEINP02",
+    "fechaOperacion": "20201009",
+    "horaOperacion": "15:10:38",
+    "fechaValor": "20201009",
+    "folio": "M00000360",
+    "folioOriginal": null,
+    "fechaOperacionOriginal": null,
+    "estatusTransaccion": "O",
+    "centroOrigen": "0172",
+    "tipoCentroOrigen": 1,
+    "centroOperante": "0172",
+    "tipoCentroOperante": 1,
+    "tasaIVA": 16,
+    "tipoCambio": "1.00",
+    "estatusInsercion": false,
+    "referenciaNumerica": "1234567",
+    "concepto": null,
+    "partes": [
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "11000",
+        "cuenta": "0172110201001MXP",
+        "codigoProducto": "DSPNB",
+        "monto": "3.54",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "3.54",
+        "parteContable": true,
+        "parteOperativa": false,
+        "tipoParteTransaccion": "C",
+        "codigoParteTransaccion": "2SPEINR",
+        "folioParteTransaccion": "1",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": null,
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacionAgrupado": {
+            "idTipoCliente": 0,
+            "idTipoEmpresa": 0,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": null,
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      },
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "90000",
+        "cuenta": "0172900600001MXP",
+        "codigoProducto": "OPECN",
+        "monto": "3.54",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "3.54",
+        "parteContable": true,
+        "parteOperativa": false,
+        "tipoParteTransaccion": "D",
+        "codigoParteTransaccion": "2LSPE90",
+        "folioParteTransaccion": "2",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": null,
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacionAgrupado": {
+            "idTipoCliente": 0,
+            "idTipoEmpresa": 0,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": null,
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      }
+    ],
+    "anexos": [
+      {
+        "anexo": {
+          "spei": {
+            "nombre": "",
+            "numeroCuenta": "",
+            "claveBanco": "",
+            "tipoCuenta": "",
+            "claveRastreo": "201009BEAM0000006540SPEI201009",
+            "referenciaCobro": ""
+          }
+        }
+      }
+    ]
+  }
+}

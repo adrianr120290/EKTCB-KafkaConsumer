@@ -1,0 +1,19 @@
+{
+  "type" : "record",
+  "name" : "Contingencia",
+  "namespace" : "mx.baz.avro.model.contingencia",
+  "fields" : [ {
+    "name" : "statusSpei",
+    "type" : [ "string", "null" ],
+    "example" : "CONECTADO",
+    "enum" : [ "CONECTADO", "DESCONECTADO", "CONTINGENCIA" ]
+  }, {
+    "name" : "fechaMensaje",
+    "type" : [ "string", "null" ],
+    "example" : "2020-01-19 03:14:07"
+  }, {
+    "name" : "fechaCambioBandera",
+    "type" : [ "string", "null" ],
+    "example" : "2020-01-19 03:14:07"
+  } ]
+}

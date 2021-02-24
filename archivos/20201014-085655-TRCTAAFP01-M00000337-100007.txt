@@ -1,0 +1,120 @@
+{
+  "transactionData": {
+    "entidad": "0127",
+    "canal": "001",
+    "canalOrigen": "BEA",
+    "sucursal": "0172",
+    "fechaEmision": "20201014 18:45:22",
+    "idMensaje": 100007,
+    "terminal": "NKRL",
+    "usuario": "SIPNOM",
+    "idAplicativo": 4,
+    "referenciaUnica": "b1a2d643-39d2-3747-e053-230c5a0a093d"
+  },
+  "transactionDetail": {
+    "codigoTransaccion": "TRCTAAFP01",
+    "fechaOperacion": "20201013",
+    "horaOperacion": "08:10:55",
+    "fechaValor": "20201013",
+    "folio": "M00000337",
+    "folioOriginal": null,
+    "fechaOperacionOriginal": null,
+    "estatusTransaccion": "O",
+    "centroOrigen": "0172",
+    "tipoCentroOrigen": 1,
+    "centroOperante": "0172",
+    "tipoCentroOperante": 1,
+    "tasaIVA": 16,
+    "tipoCambio": "1.00",
+    "estatusInsercion": false,
+    "referenciaNumerica": "000000017890",
+    "concepto": null,
+    "partes": [
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "21001",
+        "cuenta": "2100114021",
+        "codigoProducto": "PM001",
+        "monto": "1.00",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "1.00",
+        "parteContable": false,
+        "parteOperativa": true,
+        "tipoParteTransaccion": "C",
+        "codigoParteTransaccion": "1TRSP21",
+        "folioParteTransaccion": "1",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": "169",
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacion": {
+            "idCliente": "100011268",
+            "idTipoRelacionEmpresa": 1,
+            "idSubSector": 1,
+            "idNacionalidad": 449,
+            "concepto": null,
+            "cuentaOriginacion": "2100114021",
+            "idTipoCliente": 19,
+            "idTipoEmpresa": 3,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": "PM001",
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      },
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "90000",
+        "cuenta": "0172900100001MXP",
+        "codigoProducto": "OPECN",
+        "monto": "1.00",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "1.00",
+        "parteContable": true,
+        "parteOperativa": false,
+        "tipoParteTransaccion": "D",
+        "codigoParteTransaccion": "2TRSP90",
+        "folioParteTransaccion": "2",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": null,
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacion": {
+            "idCliente": "100011268",
+            "idTipoRelacionEmpresa": 1,
+            "idSubSector": 1,
+            "idNacionalidad": 449,
+            "concepto": null,
+            "cuentaOriginacion": "2100114021",
+            "idTipoCliente": 19,
+            "idTipoEmpresa": 3,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": "PM001",
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      }
+    ],
+    "anexos": [
+      {
+        "anexo": {
+          "transferencia": {
+            "nombre": "SARA",
+            "numeroCuenta": "127017201116211787",
+            "tipoCuenta": "40"
+          }
+        }
+      }
+    ]
+  }
+}

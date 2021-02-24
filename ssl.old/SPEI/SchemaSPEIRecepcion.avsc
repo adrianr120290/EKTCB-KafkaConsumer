@@ -1,0 +1,262 @@
+{
+  "type" : "record",
+  "name" : "TransactionSpeiRecepcion",
+  "namespace" : "mx.baz.avro.model.recepcion",
+  "doc" : "This Schema describes about...",
+  "fields" : [ {
+    "name" : "transactionData",
+    "type" : {
+      "type" : "record",
+      "name" : "TransactionHeader",
+      "fields" : [ {
+        "name" : "entidad",
+        "type" : "string",
+        "example" : "0127"
+      }, {
+        "name" : "canal",
+        "type" : [ "string", "null" ],
+        "example" : "01",
+        "minLength" : 2,
+        "maxLength" : 2
+      }, {
+        "name" : "canalOrigen",
+        "type" : "string",
+        "example" : "001"
+      }, {
+        "name" : "sucursal",
+        "type" : [ "string", "null" ],
+        "example" : "0100"
+      }, {
+        "name" : "fechaEmision",
+        "type" : [ "string", "null" ],
+        "example" : "2019-12-25"
+      }, {
+        "name" : "terminal",
+        "type" : [ "string", "null" ],
+        "example" : "WS01",
+        "minLength" : 4,
+        "maxLength" : 4
+      }, {
+        "name" : "usuario",
+        "type" : [ "string", "null" ],
+        "example" : "BEA",
+        "minLength" : 8,
+        "maxLength" : 8
+      }, {
+        "name" : "idAplicactivo",
+        "type" : [ "string", "null" ],
+        "example" : "01"
+      }, {
+        "name" : "claveInterfaz",
+        "type" : [ "string", "null" ],
+        "example" : "FED"
+      } ]
+    }
+  }, {
+    "name" : "transactionDetail",
+    "type" : {
+      "type" : "record",
+      "name" : "TransactionDetail",
+      "fields" : [ {
+        "name" : "numeroCliente",
+        "type" : "int",
+        "example" : "XXXXXXXX"
+      }, {
+        "name" : "producto",
+        "type" : [ "int", "null" ],
+        "example" : "10"
+      }, {
+        "name" : "subproducto",
+        "type" : [ "int", "null" ],
+        "example" : "18"
+      }, {
+        "name" : "fechaOperacion",
+        "type" : [ "string", "null" ],
+        "example" : "2019-11-11"
+      }, {
+        "name" : "horaOperacion",
+        "type" : [ "string", "null" ],
+        "example" : "15:54:54 p.m."
+      }, {
+        "name" : "folio",
+        "type" : [ "string", "null" ],
+        "example" : "1234"
+      }, {
+        "name" : "codigoDivisa",
+        "type" : "string",
+        "example" : "MXP"
+      }, {
+        "name" : "centroOperante",
+        "type" : [ "string", "null" ],
+        "example" : "0100"
+      }, {
+        "name" : "tipoCentroOperante",
+        "type" : [ "int", "null" ],
+        "example" : 1
+      }, {
+        "name" : "centroOrigen",
+        "type" : [ "string", "null" ],
+        "example" : "0100"
+      }, {
+        "name" : "tipoCentroOrigen",
+        "type" : [ "int", "null" ],
+        "example" : "1"
+      }, {
+        "name" : "centroDestino",
+        "type" : [ "string", "null" ],
+        "example" : "0100"
+      }, {
+        "name" : "tipoCentroDestino",
+        "type" : [ "int", "null" ],
+        "example" : "1"
+      }, {
+        "name" : "monto",
+        "type" : [ "double", "null" ],
+        "example" : "1000.56"
+      }, {
+        "name" : "tarjeta",
+        "type" : "string",
+        "example" : "61800009600XXXXX"
+      }, {
+        "name" : "folioConciliacion",
+        "type" : [ "string", "null" ],
+        "example" : "CXXXXXXX"
+      }, {
+        "name" : "statusConciliacion",
+        "type" : [ "string", "null" ],
+        "example" : "1"
+      }, {
+        "name" : "folioContable",
+        "type" : "string",
+        "example" : "CXXXXXXXX"
+      }, {
+        "name" : "numeroTransaccion",
+        "type" : "string",
+        "example" : "F648"
+      }, {
+        "name" : "codigoOperacion",
+        "type" : [ "int", "null" ],
+        "example" : "212"
+      }, {
+        "name" : "statusInsercion",
+        "type" : "string",
+        "example" : "Reinsertado por conciliacion"
+      } ]
+    }
+  }, {
+    "name" : "transactionSpei",
+    "type" : {
+      "type" : "record",
+      "name" : "TransactionSpei",
+      "fields" : [ {
+        "name" : "status",
+        "type" : [ "string", "null" ],
+        "example" : "ACEPTADA"
+      }, {
+        "name" : "fechaSpeiAzteca",
+        "type" : [ "string", "null" ],
+        "example" : "2019-11-11"
+      }, {
+        "name" : "horaSpeiAzteca",
+        "type" : [ "string", "null" ],
+        "example" : "10:10:01"
+      }, {
+        "name" : "fechaHubPagos",
+        "type" : [ "string", "null" ],
+        "example" : "2019-11-11"
+      }, {
+        "name" : "horaHubPagos",
+        "type" : [ "string", "null" ],
+        "example" : "10:10:02"
+      }, {
+        "name" : "numeroRastreo",
+        "type" : [ "string", "null" ],
+        "example" : "191007011112XXXXXXI"
+      }, {
+        "name" : "montoComision",
+        "type" : "double",
+        "example" : "75.90"
+      }, {
+        "name" : "referenciaCobranza",
+        "type" : [ "string", "null" ],
+        "example" : "SPEI C3 20150824 ALMACENES GRANDA"
+      }, {
+        "name" : "numeroReferencia",
+        "type" : [ "string", "null" ],
+        "example" : "132165"
+      }, {
+        "name" : "importeValorizado",
+        "type" : "double",
+        "example" : "0.00"
+      } ]
+    }
+  }, {
+    "name" : "transactionSpeiInward",
+    "type" : {
+      "type" : "record",
+      "name" : "TransactionInward",
+      "fields" : [ {
+        "name" : "nombreOrdenante",
+        "type" : [ "string", "null" ],
+        "example" : "MARGARITA JUAREZ SANCHEZ",
+        "maxLength" : 40
+      }, {
+        "name" : "cuentaOrigen",
+        "type" : [ "string", "null" ],
+        "example" : "012180029907030525",
+        "maxLength" : 20
+      }, {
+        "name" : "tipoCuentaOrigen",
+        "type" : "string",
+        "example" : "40"
+      }, {
+        "name" : "tipoPersona",
+        "type" : [ "string", "null" ],
+        "example" : "FISICA"
+      }, {
+        "name" : "codigoBancoOrigen",
+        "type" : [ "string", "null" ],
+        "example" : "0044"
+      }, {
+        "name" : "concepto",
+        "type" : [ "string", "null" ],
+        "example" : "PAGO",
+        "maxLength" : 40
+      }, {
+        "name" : "nombreDestino",
+        "type" : [ "string", "null" ],
+        "example" : "MARGARITA",
+        "maxLength" : 40
+      }, {
+        "name" : "cuentaDestino",
+        "type" : [ "string", "null" ],
+        "example" : "0055123823419769",
+        "maxLength" : 20
+      }, {
+        "name" : "tipoCuentaDestino",
+        "type" : [ "string", "null" ],
+        "example" : "03"
+      }, {
+        "name" : "fechaEmisionOriginal",
+        "type" : [ "string", "null" ],
+        "example" : "2019-11-11"
+      }, {
+        "name" : "importeOriginal",
+        "type" : "double",
+        "example" : "0.00"
+      }, {
+        "name" : "intereses",
+        "type" : "double",
+        "example" : "0.00"
+      }, {
+        "name" : "codigoDevolucion",
+        "type" : "int",
+        "example" : "2"
+      }, {
+        "name" : "formaRecepcion",
+        "type" : "string",
+        "example" : "SPEI NORMAL"
+      } ]
+    }
+  } ]
+}

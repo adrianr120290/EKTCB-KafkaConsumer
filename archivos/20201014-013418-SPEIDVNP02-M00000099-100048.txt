@@ -1,0 +1,123 @@
+{
+  "transactionData": {
+    "entidad": "0127",
+    "canal": "001",
+    "canalOrigen": "BEA",
+    "sucursal": "0172",
+    "fechaEmision": "20201014 18:45:22",
+    "idMensaje": 100048,
+    "terminal": "H2CO",
+    "usuario": "BUPAYHUB",
+    "idAplicativo": 4,
+    "referenciaUnica": "b1a6c7a1-84b1-2dd7-e053-230c5a0a4aff"
+  },
+  "transactionDetail": {
+    "codigoTransaccion": "SPEIDVNP02",
+    "fechaOperacion": "20201014",
+    "horaOperacion": "13:10:18",
+    "fechaValor": "20201014",
+    "folio": "M00000099",
+    "folioOriginal": null,
+    "fechaOperacionOriginal": null,
+    "estatusTransaccion": "O",
+    "centroOrigen": "0172",
+    "tipoCentroOrigen": 1,
+    "centroOperante": "0172",
+    "tipoCentroOperante": 1,
+    "tasaIVA": 16,
+    "tipoCambio": "1.00",
+    "estatusInsercion": false,
+    "referenciaNumerica": null,
+    "concepto": null,
+    "partes": [
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "21001",
+        "cuenta": "00002101044452",
+        "codigoProducto": "PM001",
+        "monto": "12.26",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "12.26",
+        "parteContable": false,
+        "parteOperativa": true,
+        "tipoParteTransaccion": "C",
+        "codigoParteTransaccion": "1SPEI21",
+        "folioParteTransaccion": "1",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": "214",
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacion": {
+            "idCliente": "100087873",
+            "idTipoRelacionEmpresa": 4,
+            "idSubSector": 3,
+            "idNacionalidad": 449,
+            "concepto": null,
+            "cuentaOriginacion": "00002101044452",
+            "idTipoCliente": 19,
+            "idTipoEmpresa": 4,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": "PM001",
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      },
+      {
+        "claveInterfaz": "FC1",
+        "codigoGLSubHead": "11000",
+        "cuenta": "0172110201001MXP",
+        "codigoProducto": "DSPNB",
+        "monto": "12.26",
+        "codigoDivisa": "MXP",
+        "importeValorizado": "12.26",
+        "parteContable": true,
+        "parteOperativa": false,
+        "tipoParteTransaccion": "D",
+        "codigoParteTransaccion": "2SPEIDV",
+        "folioParteTransaccion": "2",
+        "centroDestino": "0172",
+        "tipoCentroDestino": 1,
+        "codigoOperacion": null,
+        "folioContabilidad": null,
+        "fechaContabilidad": null,
+        "camposAdicionales": {
+          "captacion": {
+            "idCliente": "100087873",
+            "idTipoRelacionEmpresa": 4,
+            "idSubSector": 3,
+            "idNacionalidad": 449,
+            "concepto": null,
+            "cuentaOriginacion": "00002101044452",
+            "idTipoCliente": 19,
+            "idTipoEmpresa": 4,
+            "plazoDias": 0,
+            "plazoMeses": 0,
+            "codigoProductoOriginacion": "PM001",
+            "folioConciliacion": null,
+            "fechaConciliacion": null,
+            "statusConciliacion": null
+          }
+        }
+      }
+    ],
+    "anexos": [
+      {
+        "anexo": {
+          "spei": {
+            "nombre": "",
+            "numeroCuenta": "",
+            "claveBanco": "",
+            "tipoCuenta": "",
+            "claveRastreo": "201014BEAM0000007156SPEI201014",
+            "referenciaCobro": ""
+          }
+        }
+      }
+    ]
+  }
+}
